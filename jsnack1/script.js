@@ -13,7 +13,7 @@ const firstNum = Number(prompt('Scrivi un numero casuale'));
 const SecondNum = Number(prompt('Scrivi un altro numero casuale'));
 
 // Controllo quale dei 2 numeri è più grande
-let biggestNum = firstNum > SecondNum ? firstNum : SecondNum;
+const biggestNum = firstNum > SecondNum ? firstNum : SecondNum;
 
 // Notifico l'utente quali dei 2 numeri inserito è più grande
 alert(`Il numero più grande è: ${biggestNum}`);
