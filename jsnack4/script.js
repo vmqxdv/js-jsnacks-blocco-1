@@ -8,7 +8,7 @@
  */
 
 const oddNums = [];
-for (let i = 0; i <= 10; i++) {
+for (let i = 0; i <= 6; i++) {
   const num = Number(prompt('Inserisci un numero casuale'));
   if (num % 2) oddNums.push(num);
 };
