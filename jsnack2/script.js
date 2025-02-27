@@ -13,7 +13,7 @@ const firstWord = prompt('Scrivi una parola casuale');
 const SecondWord= prompt('Scrivi un\'altra parola casuale');
 
 // controllo quale delle 2 parole inserite è più lunga
-const biggestWord = firstWord.length > SecondWord.length ? firstWord : SecondWord;
+const wordOder = firstWord.length > SecondWord.length ? `${SecondWord}, ${firstWord}` : `${firstWord}, ${SecondWord}`;
 
 // Notifico l'utente quali delle 2 parole inserite è più lunga
-alert(`la parola più lunga è: ${biggestWord} (${biggestWord.length})`);
+alert(`la parola in ordine di grandezza sono: ${wordOder}`);
